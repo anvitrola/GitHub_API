@@ -27,5 +27,9 @@ class GhViews {
         
         this.reposDiv.innerHTML = this.ulRepos;
     }
+    clearLayout(){
+        this.imgDiv = "";
+        this.usernameDiv = "";
+    }
     
 }

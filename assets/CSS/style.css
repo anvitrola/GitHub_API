@@ -1,5 +1,5 @@
 **{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 a {
     text-decoration: none;
@@ -7,11 +7,14 @@ a {
 
 .header {
     width: 100%;
-    height: 10vh;
+    height: 8vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    background-color: #292828;
+    background-color: #f4f4f4;
+}
+.logoImg{
+    width: 70px;
 }
 .navbar{
     width: 55%;
@@ -25,11 +28,13 @@ a {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: #f2f2f2;
+    color: #292828;
+    letter-spacing: 2px;
 }
 .list-item-link, .formLabel{
     text-transform: capitalize;
-    color: #f2f2f2;
+    font-size: 1.2em;
+    color:  #292828;
 }
 #inputUser{
     width: 12em;
@@ -41,20 +46,20 @@ a {
 .submitBtn{
     width: 5em;
     height: 2em;
-    background-color:  #292828;
-    border: 2px #f4f4f4 solid;
+    color:  #f4f4f4;
+    border: none;
     border-radius: 3px;
-    color: #f4f4f4;
+    background-color:  #292828;
 }
 .pageLoad{
-    height: 90vh;
-    background-image: url(..//img/background.jpg);
+    height: 92vh;
+    background-image: url(..//img/bckg.jpg);
     background-size: cover;
 }
 
 .profileSection{
     width: 100%;
-    height: 90vh;
+    height: 92vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,6 +89,7 @@ a {
     padding: .3em
 }
 .reposDiv {
+    align-self: flex-end;
     margin-top: 3%;
     width: 60%;
     height: 30vh;
