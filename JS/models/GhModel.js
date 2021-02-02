@@ -20,11 +20,10 @@ class GhModel{
                         language: object.language
                     }
                     this._repos.push(repository);
-                })
-                console.log(this._repos);
-
+                });
             } else{
-                //try..catch..finally
+                this._repos = "Error";
+                throw new Error(`Request error ${request.status}: ${request.statusText}.`);
             }
         });
         request.send();

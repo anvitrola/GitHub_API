@@ -3,6 +3,6 @@ class GhController {
         this._model = new GhModel(input);
         this._model.openRequest();
         this._view = new GhViews(this._model);
-        this._view.clearLayout();
     }
+
 }
